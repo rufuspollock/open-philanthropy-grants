@@ -1,0 +1,15 @@
+resources:
+  - name: grants
+    path: OpenPhilGrants.csv
+    schema:
+      fields:
+        - name: Grant
+          type: string
+        - name: Organization Name
+          type: string
+        - name: Focus Area
+          type: string
+        - name: Amount
+          type: number
+        - name: Date
+          type: date
